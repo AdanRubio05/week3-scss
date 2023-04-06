@@ -1,9 +1,7 @@
 @use "./vendor/normalize";
+@use "./partials/colors";
 
-h1{
-    color: orange;
-}
 
-nav a{
-    color: green;
+p{
+   color: colors.$primary-color;
 }
