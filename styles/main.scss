@@ -1,7 +1,11 @@
 @use "./vendor/normalize";
 @use "./partials/colors";
-
+@use "./partials/typography";
 
 p{
-   color: colors.$primary-color;
+    font: typography.$primary-font;
+}
+
+h1{
+    font: typography.$heading-font;
 }
