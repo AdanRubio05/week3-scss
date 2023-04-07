@@ -7,3 +7,9 @@
         background-color: darken($color, 10%);
     }
 }
+@mixin primary-header($color) {
+    font-family: 'Marck Script', cursive;
+    font-size: 45px;
+    font-style: normal;
+    color: #DB8D33;
+}

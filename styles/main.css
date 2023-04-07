@@ -317,9 +317,10 @@ p {
 }
 
 h1 {
-  color: #DB8D33;
   font-family: "Marck Script", cursive;
   font-size: 45px;
+  font-style: normal;
+  color: #DB8D33;
 }
 
 h2 {

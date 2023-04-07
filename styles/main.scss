@@ -7,9 +7,7 @@ p{
     font-family: 'Dosis', sans-serif;
 }
 h1{
-    color: colors.$secondary-font-color;
-    font-family: 'Marck Script', cursive;
-    font-size: 45px;
+    @include mixins.primary-header(#DB8D33);
 }
 h2{
     color: colors.$secondary-font-color;
