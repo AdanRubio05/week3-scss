@@ -1,11 +1,38 @@
 @use "./vendor/normalize";
 @use "./partials/colors";
 @use "./partials/typography";
-
 p{
-    font: typography.$primary-font;
+    color: colors.$primary-font-color;
+    font-family: 'Dosis', sans-serif;
 }
-
 h1{
-    font: typography.$heading-font;
+    color: colors.$secondary-font-color;
+    font-family: 'Marck Script', cursive;
+    font-size: 45px;
+}
+h2{
+    color: colors.$secondary-font-color;
+    font-family: 'Dosis', sans-serif;
+}
+body{
+    background-color: colors.$darker-background;
+}
+a{
+    color: colors.$link-color;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+}
+nav{
+    background-color: colors.$dark-background;
+    padding: 15px;
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .box{
+        width: 5000px;
+        margin: 10px;
+        text-align: center;
+    }
 }

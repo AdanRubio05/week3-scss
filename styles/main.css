@@ -312,9 +312,43 @@ template {
 }
 
 p {
-  font: "Dosis", sans-serif;
+  color: #575757;
+  font-family: "Dosis", sans-serif;
 }
 
 h1 {
-  font: "Marck Script", cursive;
+  color: #DB8D33;
+  font-family: "Marck Script", cursive;
+  font-size: 45px;
+}
+
+h2 {
+  color: #DB8D33;
+  font-family: "Dosis", sans-serif;
+}
+
+body {
+  background-color: #150300;
+}
+
+a {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px;
+}
+
+nav {
+  background-color: #414141;
+  padding: 15px;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.flexbox .box {
+  width: 5000px;
+  margin: 10px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
