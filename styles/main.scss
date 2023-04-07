@@ -1,6 +1,7 @@
 @use "./vendor/normalize";
 @use "./partials/colors";
 @use "./partials/typography";
+@use "./partials/mixins";
 p{
     color: colors.$primary-font-color;
     font-family: 'Dosis', sans-serif;
@@ -35,4 +36,7 @@ nav{
         margin: 10px;
         text-align: center;
     }
+}
+.primary{
+    @include mixins.primary-button(tan);
 }
